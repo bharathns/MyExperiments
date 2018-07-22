@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="KeyFrameAnimationSample" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg_hello" translatesAutoresizingMaskIntoConstraints="NO" id="yKB-gO-Pns">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bangalore" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rg9-BB-Wvk">
+                                <rect key="frame" x="16" y="444" width="106" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="106" id="WUa-IA-WWV"/>
+                                    <constraint firstAttribute="height" constant="30" id="b5U-ZS-SS5"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-CondensedBold" family="Helvetica Neue" pointSize="25"/>
+                                <color key="textColor" red="0.0" green="0.75686274509999996" blue="0.93725490199999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Delhi" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YQA-wU-ceo">
+                                <rect key="frame" x="298" y="444" width="56" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="56" id="8PQ-DA-ts4"/>
+                                    <constraint firstAttribute="height" constant="30" id="Acv-gv-qXQ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-CondensedBold" family="Helvetica Neue" pointSize="25"/>
+                                <color key="textColor" red="0.0" green="0.75686274509999996" blue="0.93725490199999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icons8_F1_Car" translatesAutoresizingMaskIntoConstraints="NO" id="iyF-JN-c1z">
+                                <rect key="frame" x="154" y="444" width="38" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="globe" translatesAutoresizingMaskIntoConstraints="NO" id="XA2-CJ-wD6">
+                                <rect key="frame" x="154" y="523" width="57" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icons8_F1_Car" translatesAutoresizingMaskIntoConstraints="NO" id="99y-Mj-rqB">
+                                <rect key="frame" x="27" y="524" width="38" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="leadingMargin" secondItem="rg9-BB-Wvk" secondAttribute="leading" id="8sV-X9-p4t"/>
+                            <constraint firstItem="yKB-gO-Pns" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="FbH-9r-bk3"/>
+                            <constraint firstItem="yKB-gO-Pns" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Gda-sL-LMA"/>
+                            <constraint firstItem="yKB-gO-Pns" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="IVe-uq-zS5"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="YQA-wU-ceo" secondAttribute="trailing" constant="5" id="Q5Q-GP-AX8"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="rg9-BB-Wvk" secondAttribute="bottom" constant="193" id="UWU-ht-o3I"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="YQA-wU-ceo" secondAttribute="bottom" constant="193" id="kSg-hB-yN6"/>
+                            <constraint firstItem="yKB-gO-Pns" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" id="vj1-8y-70z"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="backgroundImageView" destination="yKB-gO-Pns" id="GHE-yV-ICP"/>
+                        <outlet property="car" destination="iyF-JN-c1z" id="6Xm-bw-D0o"/>
+                        <outlet property="globeview" destination="XA2-CJ-wD6" id="KlC-8t-WLM"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="37.600000000000001" y="37.331334332833585"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bg_hello" width="83" height="125"/>
+        <image name="globe" width="16" height="16"/>
+        <image name="icons8_F1_Car" width="16" height="16"/>
+    </resources>
+</document>

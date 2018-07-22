@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="CircularProgressBar" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Drr-XE-UgZ" customClass="CircularProgressView" customModule="CircularProgressBar" customModuleProvider="target">
+                                <rect key="frame" x="147.5" y="293.5" width="80" height="80"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="eo0-gd-Uln"/>
+                                    <constraint firstAttribute="height" constant="80" id="fol-aM-5Rq"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iE8-Mv-QDd" customClass="HourGlass" customModule="CircularProgressBar" customModuleProvider="target">
+                                <rect key="frame" x="147.5" y="457" width="80" height="80"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Drr-XE-UgZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="3oG-pv-dld"/>
+                            <constraint firstItem="iE8-Mv-QDd" firstAttribute="top" secondItem="Drr-XE-UgZ" secondAttribute="bottom" constant="83.5" id="YhI-tt-Hn4"/>
+                            <constraint firstItem="iE8-Mv-QDd" firstAttribute="width" secondItem="Drr-XE-UgZ" secondAttribute="width" id="fH6-HL-IpX"/>
+                            <constraint firstItem="Drr-XE-UgZ" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="gQj-FH-cQs"/>
+                            <constraint firstItem="iE8-Mv-QDd" firstAttribute="centerX" secondItem="Drr-XE-UgZ" secondAttribute="centerX" id="o5K-eX-adr"/>
+                            <constraint firstItem="iE8-Mv-QDd" firstAttribute="height" secondItem="Drr-XE-UgZ" secondAttribute="height" id="orU-bS-5K2"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="circleView" destination="Drr-XE-UgZ" id="4gq-n7-p78"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="137.18140929535232"/>
+        </scene>
+    </scenes>
+</document>
