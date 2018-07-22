@@ -5,7 +5,6 @@
 //  Created by Bharath Nadampalli on 21/08/17.
 //  Copyright © 2017 com.samples. All rights reserved.
 //
-
 import UIKit
 
 let kActivityIndicatorCellIdentifier  = "ActivityIndicatorTableViewCellID"
