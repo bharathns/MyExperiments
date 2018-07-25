@@ -45,7 +45,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate,ManagedAppConfigSettingsDe
     }
 
     func settingsDidChange(_ changes: Dictionary<String, AnyObject>) {
-        print("Received \(changes)")
+        print("mdm changes that got pushed : \(changes)")
     }
 }
 
