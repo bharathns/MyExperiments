@@ -9,7 +9,7 @@
 import UIKit
 import Foundation
 
-let URLString = "http://web.leap.dctmlabs.com:8080/d2fs-rest/repositories/leapexpress"
+let URLString = "http://<someurl>/"
 
 class ViewController: UIViewController, URLSessionDelegate, URLSessionDataDelegate, URLSessionDownloadDelegate  {
 
