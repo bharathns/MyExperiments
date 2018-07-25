@@ -31,5 +31,4 @@ protocol Request {
 
 class NetworkRequest: NSObject, Request {
     
-    
 }
