@@ -28,7 +28,8 @@ combination of
    here I sent method type interms of argument and return type(setter/getter)
 3. -(void)forwardInvocation:(NSInvocation)invocation <br />
    here I do the actual save and retrieve from NSUserDefaults
-The approach is to add those setters and getters
+The approach is to add those setters and getters.
+<br /><br />
 There is an implementation by [Denis Hennesey](http://hennessynet.com) which makes use of dynamic programming and message forwarding in a different way.[PAPreferences](https://github.com/dhennessy/PAPreferences)
     I like this implmentation as well, which is different from what I have done.
     Here is what is done...
