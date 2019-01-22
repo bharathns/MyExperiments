@@ -303,6 +303,7 @@
 				E2D1F9131F5084E900FEA27A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
