@@ -1,4 +1,9 @@
 * linguist-detectable=false
 *.swift linguist-detectable=true
+*.m linguist-detectable=true
+*.h linguist-detectable=true
+*.cpp linguist-detectable=true
+*.c linguist-detectable=true
+*.mm linguist-detectable=true
 
 
