@@ -1,4 +1,5 @@
 static/* linguist-vendored
 *.pbxproj binary -merge=union
-*.plist linguist-vendored
-*.xml linguist-vendored
+**/*.plist linguist-vendored
+**/*.xml linguist-vendored
+
