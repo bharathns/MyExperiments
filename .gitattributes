@@ -1,6 +1,6 @@
-iosdays/**/*.plist linguist-vendored
+*.plist	 diff=astextplain
 *.pbxproj binary -merge=union
 **/*.plist linguist-vendored
 **/*.xml linguist-vendored
-*.plist	 diff=astextplain
+
 
