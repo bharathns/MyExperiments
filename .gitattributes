@@ -1,8 +1,4 @@
 static/* linguist-vendored
 *.pbxproj binary -merge=union
-*.cpp linguist-vendored=false
-*.m linguist-vendored=false
-*.c linguist-vendored=false
-*.h linguist-vendored=false
-*.swift linguist-vendored=false
-
+*.xml linguist-detectable=false
+*.plist linguist-detectable=false
