@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>App Share sample</title>
+  </head>
+  <body>
+     <form method="post" id="myForm">
+      <select id="selectWindow" onchange="captureWindow()">
+    	<option value="-1"> Chose a window</option>
+      </select>
+      <button name="getWindows" type="button" onclick="return getData()">Refresh</button>
+      <button name="capture" type="button" onclick="return getData()">Capture</button>
+    </form>
+<br/>
+<br/>
+<br/>
+<br/>
+    <img id="capture" width="100%" height="100%"></img>
+    <script type="text/javascript" src="./renderer.js"></script>
+    <script>
+      populateWindows();
+      function getData() {
+        console.log("Hello world!");
+        var selectElement = document.getElementById("selectWindow")
+   	var i, L = selectElement.options.length - 1;
+   	var options = selectElement.getElementsByTagName('OPTION');
+    	for(var i=1; i<options.length; i++) {
+            selectElement.removeChild(options[i]);
+            i--; 
+    	}
+        populateWindows();
+      }
+
+      function captureWindow() {
+        var windowIndex = document.getElementById("selectWindow").value
+        if (windowIndex == "-1") return;
+        var b64encoded = getCaptureOfWindow(windowIndex)
+        var imgsrc = 'data:image/bmp;base64,' + b64encoded;
+        document.getElementById("capture").src = imgsrc
+      }
+
+      setInterval(captureWindow, 2000)
+
+    </script>
+  </body>
+</html>

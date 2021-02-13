@@ -1,0 +1,32 @@
+{
+  "name": "appshare",
+  "version": "1.0.0",
+  "description": "Application Share Sample",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "rebuild": "electron-rebuild -f -w native"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bharathns/MyExperiments.git"
+  },
+  "keywords": [
+    "Application Share",
+    "Electron"
+  ],
+  "gypfile": true,
+  "author": "Bharath Nadampalli",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bharathns/MyExperiments/issues"
+  },
+  "homepage": "https://github.com/bharathns/MyExperiments#readme",
+  "devDependencies": {
+    "node-gyp": "^7.1.2",
+    "electron": "^7.3.3",
+    "electron-rebuild": "^2.3.4",
+    "bindings": "^1.5.0",
+    "node-addon-api": "^3.1.0"
+  }
+}
