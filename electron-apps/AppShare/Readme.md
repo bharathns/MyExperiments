@@ -14,7 +14,7 @@ npm run start
 ![Alt text](AppShare-Mac-Demo.gif?raw=true "Windows Demo")
 
 ### Mac OS X
-![Alt text](AppShare-Mac-Demo.gif?raw=true "mac Demo")
+![Alt text](AppShare-Mac-Demo.gif=250x "mac Demo")
 
 
 ## Current Issues
