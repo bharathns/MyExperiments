@@ -11,10 +11,10 @@ npm run start
 ```
 ## Demo
 ### Windows
-![Alt text](AppShare-Win-Demo.gif?raw=true "Windows Demo")
+![Alt text](AppShare-Orig-Win-Demo.gif?raw=true "Windows Demo")
 
 ### Mac OS X
-<img src="AppShare-Mac-Demo.gif" width="800">
+![Alt text](AppShare-Orig-Mac-Demo.gif?raw=true "Mac Demo")
 
 
 ## Current Issues
