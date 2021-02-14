@@ -11,7 +11,7 @@ npm run start
 ```
 ## Demo
 ### Windows
-(Window on the right is the AppShare window, where you can select the window you want to share)
+(Window on the left is the AppShare window, where you can select the window you want to share)
 ![Alt text](AppShare-Orig-Win-Demo.gif?raw=true "Windows Demo")
 
 ### Mac OS X
